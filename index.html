@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Entrada do Quiz</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    
+       <div class="quiz-entry">
+        <h1>Bem-vindo ao Quiz </h1>
+        <input type="text" id="nick-name" placeholder="coloque um nickname">
+        <p>Teste seus conhecimentos musicais</p>
+       <a href="musica.html"><button id="redirecionar">Iniciar Quiz</button></a>
+       
+       <script>
+
+
+const nickname = document.getElementById('nick-name').value;
+
+
+document.getElementById("redirecionar").addEventListener("click", function() {
+    // Adicione qualquer lógica ou ações necessárias aqui
+    // Por exemplo, você pode realizar validações ou processamento de dados
+
+    // Após a lógica, redirecione o usuário para a outra página
+    window.location.href = "musica.html";
+});
+
+localStorage.setItem("nickname", nickname);
+
+
+       </script>
+</div>
+</body>
+</html>

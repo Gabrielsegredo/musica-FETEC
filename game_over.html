@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Over</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    
+       <div class="quiz-entry">
+        <h1>Game Over</h1>
+        <p>Sua pontuação</p>
+        <span id="imprimir"></span>
+       
+       <a href="index.html"><button id="redirecionar">Iniciar Quiz</button></a>
+       
+       <script>
+        // Recuperar os pontos do localStorage
+// Recupere os pontos do localStorage
+var pontosArmazenados = localStorage.getItem("pontos");
+
+// Verifique se os pontos foram armazenados e use seu valor
+if (pontosArmazenados !== null) {
+    var imprimir = document.getElementById('imprimir');
+    imprimir.textContent = pontosArmazenados;
+    console.log("Pontos armazenados:", pontosArmazenados);
+} else {
+    console.log("Nenhum ponto foi armazenado no localStorage.");
+}
+       </script>
+      
+</div>
+</body>
+</html>

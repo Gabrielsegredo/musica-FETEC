@@ -1,0 +1,137 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("image_fundo.jfif");
+    
+    
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+h1 {
+    margin: 0;
+}
+
+#pontuacao{
+    
+    background-color: #f2f2f2;
+}
+
+
+
+/* Estilos do jogo */
+
+.start-button{
+
+    width: 180px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border: none;
+    height: 45px;
+    background-color: #dedbdb;
+    cursor: pointer;
+    margin-top: 20px;
+  
+}
+
+#audioPlayer{
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.game {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+   margin-top: 10px;
+  
+  
+}
+
+
+
+#button{
+
+    display: flex;
+    gap: 0.8rem;
+
+}
+
+
+#audio-player {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.guess-form {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 1rem;
+    
+    
+}
+
+#resposta {
+    padding: 10px;
+    width: 70%;
+    border: 2px solid #333;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#check-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#result-message {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+}
+
+#music{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #f2f2f2;
+    border-radius: 7px;
+    
+}
+
+#music li{
+    font-size: 20px;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+ #titulo {
+    list-style: none;
+    font-weight: bolder;
+    font-size: 1.2rem;
+   
+}

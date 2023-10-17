@@ -1,0 +1,79 @@
+/* Estilos gerais */
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Estilos da tela de entrada */
+.quiz-entry {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+#redirecionar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#redirecionar:hover {
+    background-color: #555;
+}
+
+#nick-name{
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
+
+
+
+body {
+    background-image: url('./imagem2.png');
+    background-size: cover; /* para cobrir toda a tela */
+    background-repeat: no-repeat; /* para evitar repetição da imagem */
+}
+
+@media (max-width: 768px) {
+    /* Estilos para telas menores que 768px de largura */
+}
+
